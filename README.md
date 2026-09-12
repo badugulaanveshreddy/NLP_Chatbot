@@ -1,8 +1,16 @@
 # 🤖 NLP Chatbot using Python and Machine Learning
 
-A simple intelligent chatbot built using **Python, Natural Language Processing (NLP), TF-IDF Vectorization, and Logistic Regression**.
+An intelligent chatbot built using **Python, Natural Language Processing (NLP), TF-IDF Vectorization, and Logistic Regression**.
 
 The chatbot identifies the intent of a user's message and generates an appropriate response based on a custom JSON dataset.
+
+## 🚀 Live Demo
+
+👉 [Try the NLP Chatbot](https://nlpchatbot-byvcqmcfw6jpseekgbsr8s.streamlit.app/)
+
+## 💻 Source Code
+
+👉 [View the GitHub Repository](https://github.com/badugulaanveshreddy/NLP_Chatbot)
 
 ---
 
