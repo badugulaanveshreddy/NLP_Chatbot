@@ -12,6 +12,11 @@ The chatbot identifies the intent of a user's message and generates an appropria
 
 👉 [View the GitHub Repository](https://github.com/badugulaanveshreddy/NLP_Chatbot)
 
+
+### 🖥️ Application Preview
+
+![NLP Chatbot Demo](screenshots/chatbot_demo.png)
+
 ---
 
 ## 📌 Project Overview
