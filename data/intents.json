@@ -1,0 +1,316 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hello",
+                "hi",
+                "hey",
+                "hii",
+                "good morning",
+                "good afternoon",
+                "good evening",
+                "hello there",
+                "hey there",
+                "hi chatbot",
+                "hey chatbot",
+                "how are you"
+            ],
+            "responses": [
+                "Hey! What can I help you with?",
+                "Hello! How can I assist you?",
+                "Hi! Nice to meet you.",
+                "Hello! Feel free to ask me something."
+            ]
+        },
+
+        {
+            "tag": "about_bot",
+            "patterns": [
+                "who are you",
+                "what are you",
+                "tell me about yourself",
+                "tell me something about yourself",
+                "introduce yourself",
+                "can you introduce yourself",
+                "what is this chatbot",
+                "what is this bot",
+                "who is this chatbot",
+                "what is your purpose",
+                "what can you do",
+                "how does this chatbot work",
+                "how do you work",
+                "tell me about the chatbot",
+                "explain this chatbot"
+            ],
+            "responses": [
+                "I am an NLP chatbot built using Python, Natural Language Processing, TF-IDF vectorization, and Logistic Regression.",
+                "I am a machine learning based chatbot designed to understand user messages and provide suitable responses.",
+                "I am an NLP chatbot that classifies user messages into intents and generates an appropriate response."
+            ]
+        },
+
+        {
+            "tag": "skills",
+            "patterns": [
+                "what are your skills",
+                "what skills do you have",
+                "tell me your skills",
+                "what technologies do you know",
+                "what can you work with",
+                "what are your technical skills",
+                "which technologies do you know",
+                "what programming skills do you have",
+                "tell me about your technical skills",
+                "what tools do you know"
+            ],
+            "responses": [
+                "I can work with Python, NumPy, NLP, data analysis, and machine learning concepts.",
+                "My main technical areas include Python, Natural Language Processing, TF-IDF, Logistic Regression, and data analysis.",
+                "I am designed around Python, NLP, machine learning, and text classification."
+            ]
+        },
+
+        {
+            "tag": "projects",
+            "patterns": [
+                "tell me about your projects",
+                "what projects have you built",
+                "what are your projects",
+                "tell me about your project",
+                "what have you built",
+                "which projects did you complete",
+                "show me your projects",
+                "describe your projects",
+                "what project are you working on",
+                "what have you developed"
+            ],
+            "responses": [
+                "My projects include an NLP chatbot and a sales prediction model using machine learning.",
+                "I have worked on an NLP chatbot and machine learning based prediction projects.",
+                "One of my projects is this NLP chatbot, which uses TF-IDF vectorization and Logistic Regression for intent classification."
+            ]
+        },
+
+        {
+            "tag": "education",
+            "patterns": [
+                "what did you study",
+                "what is your education",
+                "what degree do you have",
+                "which degree do you have",
+                "tell me about your education",
+                "where did you study",
+                "what are you studying",
+                "what is your qualification",
+                "what course are you studying",
+                "what is your degree"
+            ],
+            "responses": [
+                "I am designed as an educational and technical chatbot focused on Python, NLP, machine learning, and data analysis.",
+                "My knowledge and project context focus on Artificial Intelligence, Data Science, NLP, and machine learning."
+            ]
+        },
+
+        {
+            "tag": "internship",
+            "patterns": [
+                "tell me about your internship",
+                "what internship did you do",
+                "where did you intern",
+                "tell me about your internships",
+                "what did you learn during your internship",
+                "describe your internship",
+                "do you have internship experience",
+                "what internship experience do you have",
+                "tell me about your internship experience",
+                "what did you do during your internship"
+            ],
+            "responses": [
+                "I have project and internship-related experience involving Python, data science, and machine learning concepts.",
+                "My internship experience helped me work with Python and data science concepts in a practical environment."
+            ]
+        },
+
+        {
+            "tag": "python",
+            "patterns": [
+                "what is python",
+                "explain python",
+                "tell me about python",
+                "what is python programming",
+                "why is python used",
+                "what can python do",
+                "is python a programming language",
+                "why should I learn python",
+                "what are the uses of python",
+                "how is python used in data science"
+            ],
+            "responses": [
+                "Python is a popular programming language widely used for software development, data analysis, machine learning, automation, and artificial intelligence.",
+                "Python is a beginner-friendly programming language with a large ecosystem of libraries for data science and machine learning."
+            ]
+        },
+
+        {
+            "tag": "nlp",
+            "patterns": [
+                "what is nlp",
+                "what is natural language processing",
+                "explain nlp",
+                "tell me about nlp",
+                "how does nlp work",
+                "why is nlp used",
+                "what can nlp do",
+                "where is nlp used",
+                "explain natural language processing",
+                "what is natural language processing used for"
+            ],
+            "responses": [
+                "Natural Language Processing, or NLP, is a field of AI that helps computers understand and process human language.",
+                "NLP allows computers to work with human language. It is used in chatbots, translation, sentiment analysis, search, and text classification."
+            ]
+        },
+
+        {
+            "tag": "machine_learning",
+            "patterns": [
+                "what is machine learning",
+                "explain machine learning",
+                "tell me about machine learning",
+                "how does machine learning work",
+                "what is ml",
+                "why is machine learning used",
+                "what can machine learning do",
+                "where is machine learning used",
+                "explain ml",
+                "what are machine learning models"
+            ],
+            "responses": [
+                "Machine Learning is a branch of AI where computers learn patterns from data and use those patterns to make predictions or decisions.",
+                "Machine Learning allows systems to learn from data instead of relying only on explicitly programmed rules."
+            ]
+        },
+
+        {
+            "tag": "tfidf",
+            "patterns": [
+                "what is tf idf",
+                "what is tfidf",
+                "explain tf idf",
+                "how does tfidf work",
+                "why is tfidf used",
+                "what is tf idf vectorization",
+                "tell me about tfidf",
+                "what does tfidf do",
+                "why do you use tfidf",
+                "how is text converted into numbers"
+            ],
+            "responses": [
+                "TF-IDF stands for Term Frequency-Inverse Document Frequency. It converts text into numerical features based on how important words are within documents.",
+                "TF-IDF is a text vectorization technique used to represent words numerically so a machine learning model can process text."
+            ]
+        },
+
+        {
+            "tag": "logistic_regression",
+            "patterns": [
+                "what is logistic regression",
+                "explain logistic regression",
+                "why use logistic regression",
+                "what is logistic regression used for",
+                "tell me about logistic regression",
+                "how does logistic regression work",
+                "is logistic regression machine learning",
+                "why is logistic regression used in chatbot",
+                "what model does the chatbot use",
+                "which machine learning algorithm do you use"
+            ],
+            "responses": [
+                "Logistic Regression is a supervised machine learning algorithm commonly used for classification problems.",
+                "This chatbot uses Logistic Regression to classify user messages into different intents."
+            ]
+        },
+
+        {
+            "tag": "how_it_works",
+            "patterns": [
+                "how does the chatbot work",
+                "how does this chatbot work",
+                "explain how the chatbot works",
+                "explain the chatbot process",
+                "what happens when I ask a question",
+                "how does it understand my message",
+                "how does the bot understand text",
+                "how is my message processed",
+                "explain the chatbot architecture",
+                "what is the workflow of this chatbot"
+            ],
+            "responses": [
+                "When you send a message, the chatbot converts the text into TF-IDF features, uses Logistic Regression to predict the intent, and then selects a suitable response.",
+                "The chatbot follows this process: user message → NLP preprocessing → TF-IDF vectorization → intent classification → response generation."
+            ]
+        },
+
+        {
+            "tag": "weather",
+            "patterns": [
+                "what is the weather",
+                "what is the weather today",
+                "tell me the weather",
+                "how is the weather",
+                "weather today",
+                "is it raining",
+                "will it rain today",
+                "what is today's weather"
+            ],
+            "responses": [
+                "I don't have live weather data yet. I can answer questions about my NLP and machine learning capabilities.",
+                "I currently don't have access to real-time weather information."
+            ]
+        },
+
+        {
+            "tag": "thanks",
+            "patterns": [
+                "thanks",
+                "thank you",
+                "thanks for helping",
+                "thank you for helping",
+                "thanks chatbot",
+                "thank you chatbot",
+                "great thanks",
+                "that was helpful",
+                "thanks a lot",
+                "appreciate your help"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Happy to help!",
+                "You're welcome. Feel free to ask me anything else.",
+                "Glad I could help!"
+            ]
+        },
+
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you",
+                "see you later",
+                "talk to you later",
+                "catch you later",
+                "I have to go",
+                "good night",
+                "bye chatbot",
+                "exit"
+            ],
+            "responses": [
+                "Goodbye! Have a great day!",
+                "See you later!",
+                "Bye! Thanks for chatting with me."
+            ]
+        }
+    ]
+}
